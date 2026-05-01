@@ -12,8 +12,11 @@ struct ContentView: View {
         VStack {
             HStack {
                 Text("Kamera Kanan")
+                    .font(.title)
                 Spacer()
                 Text("Kamera Kiri")
+                    .font(.title)
+
 
             }
         }
