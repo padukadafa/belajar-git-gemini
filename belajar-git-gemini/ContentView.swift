@@ -18,6 +18,7 @@ struct ContentView: View {
                 Spacer()
                 
             }
+            Text("Ini adalah tombol")
         }
         .padding()
     }
