@@ -11,9 +11,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Kamera Kanan")
-                Spacer()
                 Text("Kamera Kiri")
+                
+                Spacer()
+                Text("Kamera Kanan")
+                
             }
         }
         .padding()
